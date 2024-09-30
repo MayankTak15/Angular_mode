@@ -1,0 +1,29 @@
+// ul {
+//     grid-auto-columns: max-content;
+//     grid-auto-rows: max-content;
+//     border: 2%;
+// 
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  
+label {
+    background-color: rgb(76, 185, 193);
+    background-image: url(https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    opacity: 0.8;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+label:hover {
+    transform: translateY(-5px);
+}
